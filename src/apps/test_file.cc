@@ -16,8 +16,9 @@ int main(void) {
   for (int i = 0; i < 1000; i++) {
     a *= 2.0f;
     a /= 2.0f;
-    std::cout << a << std::endl;
   }
+
+  std::cout << a << std::endl;
 
   return 0;
 }
