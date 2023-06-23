@@ -6,7 +6,7 @@
 
 int test1(int a, int b) { return a + b; }
 
-void trickery(char *ptr) { free(ptr); }
+// void trickery(char *ptr) { free(ptr); }
 
 int main(void) {
   std::cout << test1(1, 2) << std::endl;

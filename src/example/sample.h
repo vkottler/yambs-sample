@@ -10,6 +10,7 @@ inline void method3(void) {
   for (int i = 0; i < 1000; i++) {
     b *= 10;
   }
+  (void)b;
 }
 
 } // namespace Example
