@@ -7,6 +7,7 @@ static void method4(void) {
   for (int i = 0; i < 1000; i++) {
     a *= 2;
   }
+
   (void)a;
 }
 
