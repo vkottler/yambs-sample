@@ -7,6 +7,7 @@ static void method4(void) {
   for (int i = 0; i < 1000; i++) {
     a *= 2;
   }
+  (void)a;
 }
 
 void method1(void) {
@@ -15,6 +16,7 @@ void method1(void) {
     a *= 2;
   }
   method4();
+  (void)a;
 }
 
 void method2(void) {
@@ -23,6 +25,7 @@ void method2(void) {
     a *= 2;
   }
   method4();
+  (void)a;
 }
 
 } // namespace Example
