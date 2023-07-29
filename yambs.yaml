@@ -2,5 +2,8 @@
 project:
   name: yambs-sample
 
-  github: {owner: vkottler}
-  version: {major: 0, minor: 1, patch: 3}
+  github: {owner: &self vkottler}
+  version: {major: 0, minor: 2, patch: 0}
+
+dependencies:
+  - github: {repo: yambs-sample2, owner: *self}
