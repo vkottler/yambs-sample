@@ -1,5 +1,8 @@
 #include "example/sample.h"
 
+/* third-party */
+#include "yambs-sample2/example/sample.h"
+
 namespace Example {
 
 static void method4(void) {
@@ -18,6 +21,8 @@ void method1(void) {
   }
   method4();
   (void)a;
+
+  Example2::method1();
 }
 
 void method2(void) {
@@ -27,6 +32,8 @@ void method2(void) {
   }
   method4();
   (void)a;
+
+  Example2::method2();
 }
 
 } // namespace Example
