@@ -6,19 +6,10 @@ includes:
   - config/includes/funding.yaml
   - config/includes/yambs.yaml
 
-templates:
-  - local/templates
-
 compiles:
   - name: local
     configs:
       - local/configs
-
-renders:
-  - name: README.md
-    output_dir: "."
-    dependencies:
-      - compiles-local
 
 groups:
   - name: all
@@ -26,4 +17,3 @@ groups:
       - groups-license
       - groups-funding
       - groups-yambs-native-renders
-      - renders-README.md
