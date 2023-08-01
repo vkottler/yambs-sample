@@ -1,0 +1,12 @@
+---
+name: yambs-sample
+description: A sample yambs project.
+
+version:
+  major: 0
+  minor: 2
+  patch: 2
+
+config_local: |
+  dependencies:
+    - github: {repo: yambs-sample2, owner: *self}
