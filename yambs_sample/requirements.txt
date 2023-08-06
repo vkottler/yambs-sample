@@ -1,2 +1,7 @@
 vmklib>=1.9.0
 yambs
+
+sphinx
+sphinx-book-theme
+breathe
+exhale
