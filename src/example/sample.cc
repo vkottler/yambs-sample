@@ -1,6 +1,8 @@
+/* internal */
 #include "example/sample.h"
 
 /* third-party */
+#include "example/sample3.h"
 #include "yambs-sample2/example/sample.h"
 
 namespace Example
@@ -28,6 +30,9 @@ void method1(void)
     (void)a;
 
     Example2::method1();
+
+    Sample3::method1();
+    Sample3::method2();
 }
 
 void method2(void)
@@ -41,6 +46,9 @@ void method2(void)
     (void)a;
 
     Example2::method2();
+
+    Sample3::method1();
+    Sample3::method2();
 }
 
 } // namespace Example

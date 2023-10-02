@@ -1,17 +1,19 @@
 # =====================================
 # generator=datazen
-# version=3.1.2
-# hash=eb0a2f85f976f308a9490291d878ff2d
+# version=3.1.3
+# hash=8d89537a3e9897cf15d28249c5d414e1
 # =====================================
 ---
 project:
   name: yambs-sample
 
   github: {owner: &self vkottler}
-  version: {major: 0, minor: 2, patch: 4}
+  version: {major: 0, minor: 3, patch: 0}
 
 dependencies:
   - github: {repo: yambs-sample2, owner: *self}
+  - github: {repo: yambs-sample3, owner: *self}
+    as_source: true
 variants:
   clang:
     suffix: &clang_version "-15"
