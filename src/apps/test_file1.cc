@@ -1,6 +1,9 @@
 /* toolchain */
 #include <iostream>
 
+/* third-party */
+#include "example/sample3.h"
+
 /* internal */
 #include "example/sample.h"
 
@@ -14,6 +17,9 @@ int test1(int a, int b)
 int main(void)
 {
     std::cout << test1(1, 2) << std::endl;
+
+    Sample3::method1();
+    Sample3::method2();
 
     Example::method1();
     Example::method3();
